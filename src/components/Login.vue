@@ -39,8 +39,8 @@ import useSingup from '../composables/useSignup'
 export default {
     setup(props) {
         const router = useRouter()
-        const email = ref('eslam@gmail.com')
-        const password = ref('iamsoslow1')
+        const email = ref('mohamed@gmail.com')
+        const password = ref('mynameismohamed')
         const displayName = ref('')
         const passwordSignup = ref('')
         const emailSignup = ref('')
